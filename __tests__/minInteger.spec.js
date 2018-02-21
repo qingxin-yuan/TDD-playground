@@ -9,8 +9,11 @@ describe('return min missing integer from given array', () => {
     expect(minInteger([1, 3, 6, 1, 2])).toEqual(4);
   });
 
+  test('should return 2', () => {
+    expect(minInteger([1, 1, 1, 1, 1])).toEqual(2);
+  });
+
   test('should throw error', () => {
     expect(() => minInteger()).toThrow();
   });
-  
 });
