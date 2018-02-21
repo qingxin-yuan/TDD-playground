@@ -18,5 +18,4 @@ describe('string compression', () => {
       expect(() => stringCompression(123)).toThrow();
     });
   });
-  
 });
